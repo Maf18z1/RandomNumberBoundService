@@ -82,7 +82,6 @@ class MainActivity : ComponentActivity() {
 
     override fun onStop() {
         super.onStop()
-        // Отвязываемся при скрытии активности, чтобы не держать сервис
         unbindFromService()
     }
 }
